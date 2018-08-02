@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_petenak"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Peternak" />
+        <item
+            android:id="@+id/nav_pakan"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="Pakan" />
+        <item
+            android:id="@+id/nav_penyakit"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="Penyakit" />
+        <item
+            android:id="@+id/nav_riwayat"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Riwayat" />
+        <item
+            android:id="@+id/nav_keluar"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Keluar" />
+    </group>
+
+</menu>

@@ -1,0 +1,25 @@
+<resources>
+    <array name="Job">
+        <item>-- Pilih Job --</item>
+        <item>Beri Pakan</item>
+        <item>Cek Bobot</item>
+        <item>Daftar Sakit dan Potong</item>
+    </array>
+
+    <string name="app_name">Owner</string>
+    <string name="title_activity_beranda">Beranda</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pakan">Pakan</string>
+    <string name="title_activity_peternak">Peternak</string>
+
+    <string name="lbl_lupa">Forgot Password</string>
+    <string name="forgot_password_msg">Kami membutuhkan alamat email anda untuk bisa mereset password anda</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back">back</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.ternaknesia.Bio">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:fontFamily="serif"
+            android:textSize="15pt"
+            android:id="@+id/textViewUseremail"
+            android:layout_gravity="center_horizontal"
+            android:hint="Biodata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:hint="Enter your fullname"
+            android:id="@+id/editTextFullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:hint="Enter your Address"
+            android:id="@+id/editTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="number"
+            android:layout_margin="10dp"
+            android:hint="Enter your Number telepon"
+            android:id="@+id/editTextTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/gender"></Spinner>
+
+        <EditText
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:hint="Enter your job"
+            android:id="@+id/editTextJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:text="Save Data"
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

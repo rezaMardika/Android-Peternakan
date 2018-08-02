@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center"
+        android:id="@+id/cardViewPenyakit"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:elevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        cardCornerRadius="@dimen/cardview_default_radius">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPenyakit"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewPenyakit"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:scaleType="fitXY"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_penyakit"
+                />
+
+            <TextView
+                android:id="@+id/textViewNama"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="Text Nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewJumlah"
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

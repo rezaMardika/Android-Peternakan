@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ui_2"
+    tools:context="com.example.root.ternaknesia.BobotActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="550dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textViewJudul"
+            android:layout_margin="10dp"
+            android:fontFamily="serif"
+            android:textSize="12pt"
+            android:layout_gravity="center_horizontal"
+            android:text="Halaman Riwayat Hewam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/blueLight"/>
+
+        <ListView
+            android:background="@color/blueLight"
+            android:id="@+id/listViewBobot"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"></ListView>
+
+        <Button
+            android:id="@+id/buttonChart"
+            android:layout_marginTop="15dp"
+            android:text="Chart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/update_id"
+        android:title="Update Sapi"
+        />
+    <item
+        android:id="@+id/pakan_id"
+        android:title="Beri Pakan"
+        />
+    <item
+        android:id="@+id/jadwal_id"
+        android:title="Jadwal Pakan"
+        />
+    <item
+        android:id="@+id/riwayat_id"
+        android:title="Sapi Riwayat"
+        />
+    <item
+        android:id="@+id/penyakit_id"
+        android:title="Daftar Sakit"
+        />
+    <item
+        android:id="@+id/potong_id"
+        android:title="Daftar Potong"
+        />
+    <item
+        android:id="@+id/profil_id"
+        android:title="Profil Hewan"
+        />
+
+</menu>
